@@ -1,0 +1,24 @@
+{
+  "source": "piezo",
+  "label": "Piezoelectric Array",
+  "icon": "\u26a1",
+  "duration_hours": 24.0,
+  "samples": 86400,
+  "dt_s": 1.0,
+  "seed": 42,
+  "csv_file": "example_piezo_24h.csv",
+  "csv_stride": 60,
+  "peak_power_W": 0.068903,
+  "mean_power_W": 0.025548,
+  "min_power_W": 0.000689,
+  "std_power_W": 0.020144,
+  "total_energy_Wh": 0.613142,
+  "share_pct": 0.2034,
+  "operating_hours": 24.0,
+  "downtime_hours": 0.0,
+  "capacity_factor": 0.370779,
+  "inputs": {
+    "vib_power_W": "Driving vibration power (W)"
+  },
+  "efficiency": 0.5
+}

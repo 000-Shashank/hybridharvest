@@ -1,0 +1,25 @@
+{
+  "source": "solar",
+  "label": "Solar PV",
+  "icon": "\u2600\ufe0f",
+  "duration_hours": 24.0,
+  "samples": 86400,
+  "dt_s": 1.0,
+  "seed": 42,
+  "csv_file": "example_solar_24h.csv",
+  "csv_stride": 60,
+  "peak_power_W": 18.0,
+  "mean_power_W": 4.5,
+  "min_power_W": 0.0,
+  "std_power_W": 5.809475,
+  "total_energy_Wh": 108.0,
+  "share_pct": 35.8279,
+  "operating_hours": 11.9997,
+  "downtime_hours": 12.0003,
+  "capacity_factor": 0.25,
+  "inputs": {
+    "irradiance_Wm2": "Irradiance (W/m^2)"
+  },
+  "daily_yield_Wh": 108.0,
+  "peak_irradiance_Wm2": 1000.0
+}

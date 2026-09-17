@@ -1,0 +1,14 @@
+# Runtime dependencies for the dashboard.
+#
+# Streamlit Community Cloud installs from this file only — it does not run
+# `pip install -e .` — so the app's own package is reached through the
+# sys.path insert at the top of app/dashboard.py.
+#
+# Development-only packages (pytest, pytest-cov, hypothesis) live in
+# pyproject.toml's `dev` extra and are deliberately left out here: every
+# entry adds to the cloud build time.
+
+matplotlib>=3.8
+pandas>=2.2
+plotly>=5.0
+streamlit>=1.35

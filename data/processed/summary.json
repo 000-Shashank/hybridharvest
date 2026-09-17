@@ -1,0 +1,68 @@
+{
+  "generated_by": "scripts/export_categorized_data.py",
+  "hybridharvest_version": "0.1.0",
+  "duration_hours": 24.0,
+  "dt_s": 1.0,
+  "seed": 42,
+  "csv_stride": 60,
+  "sources_simulated": [
+    "wind",
+    "hydro",
+    "vibration",
+    "piezo",
+    "solar"
+  ],
+  "total_energy_Wh_preconversion": 301.441027,
+  "total_energy_Wh_after_conversion": 256.224873,
+  "load_energy_Wh": 0.368,
+  "peak_total_power_W": 42.012103,
+  "mean_total_power_W": 10.676036,
+  "conversion_efficiency": 0.85,
+  "sources": {
+    "wind": {
+      "label": "Wind Turbine",
+      "icon": "\ud83c\udf2c\ufe0f",
+      "energy_Wh": 185.45708,
+      "share_pct": 61.5235,
+      "peak_power_W": 31.033708,
+      "csv": "data/processed/wind/example_wind_24h.csv",
+      "stats": "data/processed/wind/stats_wind.json"
+    },
+    "hydro": {
+      "label": "Hydro Turbine",
+      "icon": "\ud83d\udca7",
+      "energy_Wh": 7.064233,
+      "share_pct": 2.3435,
+      "peak_power_W": 0.588596,
+      "csv": "data/processed/hydro/example_hydro_24h.csv",
+      "stats": "data/processed/hydro/stats_hydro.json"
+    },
+    "vibration": {
+      "label": "Vibration Harvester",
+      "icon": "\ud83d\udcf3",
+      "energy_Wh": 0.306571,
+      "share_pct": 0.1017,
+      "peak_power_W": 0.034451,
+      "csv": "data/processed/vibration/example_vibration_24h.csv",
+      "stats": "data/processed/vibration/stats_vibration.json"
+    },
+    "piezo": {
+      "label": "Piezoelectric Array",
+      "icon": "\u26a1",
+      "energy_Wh": 0.613142,
+      "share_pct": 0.2034,
+      "peak_power_W": 0.068903,
+      "csv": "data/processed/piezo/example_piezo_24h.csv",
+      "stats": "data/processed/piezo/stats_piezo.json"
+    },
+    "solar": {
+      "label": "Solar PV",
+      "icon": "\u2600\ufe0f",
+      "energy_Wh": 108.0,
+      "share_pct": 35.8279,
+      "peak_power_W": 18.0,
+      "csv": "data/processed/solar/example_solar_24h.csv",
+      "stats": "data/processed/solar/stats_solar.json"
+    }
+  }
+}

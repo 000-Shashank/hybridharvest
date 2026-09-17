@@ -1,0 +1,22 @@
+# Streamlit configuration.
+#
+# Resolution is relative to the working directory, so this file must sit at the
+# repository root for both `streamlit run app/dashboard.py` and Streamlit
+# Community Cloud to pick it up.
+
+[server]
+# Streamlit Cloud terminates TLS and sets the port itself; binding a port here
+# would fight it. `enableCORS`/`enableXsrfProtection` are left at their secure
+# defaults (true) — overriding them makes Streamlit accept cross-origin
+# WebSocket connections from anywhere, which it warns loudly about.
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "light"
+primaryColor = "#FF6B6B"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#262730"
+font = "sans serif"

@@ -1,0 +1,37 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.env
+.ai_keys.json
+*.key
+models/*
+!models/.gitkeep
+output/*
+!output/**/.gitkeep
+# Data directory: keep the per-category placeholders and the processed
+# exports, ignore everything else.
+#
+# ``data/raw/*`` excludes the category directories themselves, and git never
+# descends into an excluded directory — so the directory has to be re-included
+# before its contents can be selectively un-ignored. Hence the four lines.
+data/raw/*
+!data/raw/*/
+data/raw/*/*
+!data/raw/*/.gitkeep
+data/processed/*
+!data/processed/**/
+!data/processed/**/*.csv
+!data/processed/**/*.json
+docs/*.pdf
+docs/*.aux
+docs/*.log
+docs/*.out
+docs/figures/*.png
+matlab/*.asv
+.venv/
+venv/
+.DS_Store

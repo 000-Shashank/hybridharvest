@@ -1,0 +1,24 @@
+{
+  "source": "wind",
+  "label": "Wind Turbine",
+  "icon": "\ud83c\udf2c\ufe0f",
+  "duration_hours": 24.0,
+  "samples": 86400,
+  "dt_s": 1.0,
+  "seed": 42,
+  "csv_file": "example_wind_24h.csv",
+  "csv_stride": 60,
+  "peak_power_W": 31.033708,
+  "mean_power_W": 7.727378,
+  "min_power_W": 0.0,
+  "std_power_W": 8.820052,
+  "total_energy_Wh": 185.45708,
+  "share_pct": 61.5235,
+  "operating_hours": 18.01,
+  "downtime_hours": 5.99,
+  "capacity_factor": 0.249,
+  "inputs": {
+    "wind_speed_mps": "Wind speed (m/s)"
+  },
+  "cut_in_hours": 18.01
+}
